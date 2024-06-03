@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RestApi</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="my-4"><%= title %></h1>
+      <% if (Array.isArray(data)) { %>
+      <div class="row">
+        <% data.forEach(item => { %>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <% if (item.image) { %>
+            <img
+              src="<%= item.image %>"
+              class="card-img-top"
+              alt="<%= item.name %>"
+            />
+            <% } %>
+            <div class="card-body">
+              <% if (item.name) { %>
+              <h5 class="card-title"><%= item.name %></h5>
+              <% } %> <% if (item.species) { %>
+              <p class="card-text"><%= item.species %></p>
+              <% } %> <% if (item.address) { %>
+              <p class="card-text"><%= item.address %></p>
+              <% } %>
+            </div>
+          </div>
+        </div>
+        <% }) %>
+      </div>
+      <% } else { %>
+      <div class="card mb-4 shadow-sm">
+        <div class="card-body">
+          <% for (let key in data) { %>
+          <p class="card-text"><strong><%= key %>:</strong> <%= data[key] %></p>
+          <% } %>
+        </div>
+      </div>
+      <% } %>
+    </div>
+  </body>
+</html>

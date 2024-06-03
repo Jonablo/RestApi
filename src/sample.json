@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Juan Pérez",
+    "address": "Calle Mayor 1, Madrid, España"
+  },
+  {
+    "name": "María Gómez",
+    "address": "Avenida Libertador 1234, Buenos Aires, Argentina"
+  },
+  {
+    "name": "Ana Rodríguez",
+    "address": "Calle 50 No. 20, Bogotá, Colombia"
+  },
+  {
+    "name": "Carlos Sánchez",
+    "address": "Passeig de Gràcia 45, Barcelona, España"
+  },
+  {
+    "name": "Lucía Fernández",
+    "address": "Avenida Insurgentes Sur 3000, Ciudad de México, México"
+  },
+  {
+    "name": "Pedro Martínez",
+    "address": "Calle 8 No. 27, Lima, Perú"
+  },
+  {
+    "name": "Sofía López",
+    "address": "Calle Ocho 18, Quito, Ecuador"
+  },
+  {
+    "name": "Miguel Torres",
+    "address": "Calle San Martín 123, Montevideo, Uruguay"
+  },
+  {
+    "name": "Elena Ruiz",
+    "address": "Carrera 15 No. 85-50, Bogotá, Colombia"
+  },
+  {
+    "name": "Luis Ramírez",
+    "address": "Calle 25 de Mayo 456, Asunción, Paraguay"
+  },
+  {
+    "name": "Marta Flores",
+    "address": "Calle 72 No. 5-15, Medellín, Colombia"
+  },
+  {
+    "name": "José Aguilar",
+    "address": "Calle Goya 89, Madrid, España"
+  },
+  {
+    "name": "Raquel Herrera",
+    "address": "Avenida 9 de Julio 567, Buenos Aires, Argentina"
+  },
+  {
+    "name": "Pablo Medina",
+    "address": "Calle Florida 789, Buenos Aires, Argentina"
+  },
+  {
+    "name": "Clara Castro",
+    "address": "Calle Alcalá 90, Madrid, España"
+  },
+  {
+    "name": "Andrés Vega",
+    "address": "Avenida Paulista 1000, São Paulo, Brasil"
+  },
+  {
+    "name": "Gloria Ortiz",
+    "address": "Calle Príncipe de Vergara 112, Madrid, España"
+  },
+  {
+    "name": "Tomás Morales",
+    "address": "Calle Colón 200, Caracas, Venezuela"
+  },
+  {
+    "name": "Eva Navarro",
+    "address": "Calle 26 No. 5-67, Bogotá, Colombia"
+  },
+  {
+    "name": "Alberto Gil",
+    "address": "Calle Serrano 99, Madrid, España"
+  }
+]
